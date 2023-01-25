@@ -1,0 +1,122 @@
+#header {
+  width: 100%;
+  background-color: white;
+}
+
+#header .space {
+  width: 100%;
+  height: 120px;
+}
+
+#header .header {
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  z-index: 9999;
+  border-bottom: 0.3px solid rgb(230, 230, 230);
+}
+
+/* menu */ /* menu */
+.header > .main_menu {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+  height: 120px;
+  margin: 0px auto;
+}
+
+.main_menu .logo {
+  margin: 20px;
+  width: 160px;
+}
+.main_menu ul {
+  display: flex;
+  margin: 50px 0 0 0;
+}
+
+.main_menu ul li {
+  margin: 0px 23px;
+}
+
+.main_menu ul a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+}
+
+.main_menu ul li a:hover {
+  color: rgb(250, 50, 50);
+}
+
+/* tab */
+.main_menu .tab {
+  display: none;
+}
+
+/* 768px */
+@media (max-width: 767px) {
+  .header > .main_menu {
+    width: 100%;
+  }
+  /* tab */
+
+  .main_menu .tab {
+    display: block;
+    width: 120px;
+    height: 120px;
+  }
+
+  .main_menu .tab * {
+    width: 120px;
+    height: 120px;
+    padding: 40px;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .main_menu ul {
+    background-color: rgba(25, 25, 25, 0.7);
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+  }
+
+  .main_menu .nav {
+    display: none;
+  }
+
+  .nav_button {
+    display: none;
+  }
+
+  .main_menu .hide_nav {
+    display: block;
+  }
+
+  .main_menu ul li {
+    width: 100%;
+    height: 15vh;
+    display: block;
+    margin: 0px;
+    text-align: center;
+    line-height: 15vh;
+  }
+
+  .main_menu ul a {
+    color: rgb(255, 255, 255);
+  }
+}
+
+/* 1308px */
+@media (min-width: 768px) and (max-width: 1300px) {
+  .header > .main_menu {
+    width: 100%;
+  }
+}
