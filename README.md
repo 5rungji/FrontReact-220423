@@ -1,3 +1,9 @@
+# FrontReact_Project 220423 ~
+
+![Animation2](https://user-images.githubusercontent.com/103344381/214551777-5906c73c-6933-4b39-a38e-708884936884.gif)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
